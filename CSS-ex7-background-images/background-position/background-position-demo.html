@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>background-position Demo</title>
+<style>
+
+div {
+height: 200px;
+width: 200px;
+border: 2px solid black;
+margin-right: 10px;
+margin-bottom: 10px;
+float: left;
+background-image: url(images/puppycat.png);
+background-repeat: no-repeat;
+background-color: #efefef;
+}
+
+section {
+padding-bottom: 10px;
+}
+
+span {
+display: block;
+float: left;
+width: 202px;
+margin-right: 10px;
+padding-left: 2px;
+}
+
+p {
+overflow: auto;
+}
+
+code {
+font-weight: bold;
+}
+
+.keyword1 {
+background-position: left top ;
+}
+
+.keyword2 {
+background-position: center top ;
+}
+
+.keyword3 {
+background-position: right top;
+}
+
+.keyword4 {
+background-position: left bottom ;
+}
+
+.keyword5 {
+background-position: center bottom;
+}
+
+
+.keyword6 {
+background-position: right bottom ;
+}
+
+.keyword7 {
+background-position: left center;
+}
+
+.keyword8 {
+background-position: center center;
+}
+
+.keyword9 {
+background-position: right center;
+}
+
+.keyword9 {
+background-position: right center;
+}
+
+.coordinates1 {
+background-position: 20px 50px;
+}
+
+.coordinates2 {
+background-position: 50px 20px;
+}
+
+.coordinates3 {
+background-position: 40px -20px;
+}
+
+.coordinates4 {
+background-position: -40px 150px;
+}
+
+.clearfix {
+clear: both;
+}
+
+
+</style>
+</head>
+
+<body>
+<!-- notice that most of the markup is non-semantic. That is because most of the page content is non-semantic! It is just demonstrating presentation. -->
+
+<h1><code>background-position</code> Property</h1>
+<p>The following layouts demonstrate how the <code>background-position</code> property works using both the keywords and coordinate points to locate the image within its display box.</p>
+<section>
+<h2>Keywords</h2>
+<div class="keyword1">&nbsp;</div>
+<div class="keyword2">&nbsp;</div>
+<div class="keyword3">&nbsp;</div>
+<p class="clearfix"><span>box 1: <code>left top</code>.</span> <span>box 2: <code>center top</code>.</span><span> box 3: <code>right top</code>.</span></p>
+<div class="keyword7">&nbsp;</div>
+<div class="keyword8">&nbsp;</div>
+<div class="keyword9">&nbsp;</div>
+<p class="clearfix"><span>box 4: <code>left center</code>.</span> <span>box 5: <code>center center</code>.</span><span> box 6: <code>right center</code>.</span></p>
+<div class="keyword4">&nbsp;</div>
+<div class="keyword5">&nbsp;</div>
+<div class="keyword6">&nbsp;</div>
+<p class="clearfix"><span>box 7: <code>left bottom</code>.</span> <span>box 8: <code>center bottom</code>.</span><span> box 9: <code>right bottom</code>.</span></p>
+</section>
+
+<section>
+<h2>Coordinate Points (x y)</h2>
+<div class="coordinates1"></div>
+<div class="coordinates2"></div>
+<div class="coordinates3"></div>
+<div class="coordinates4"></div>
+<p class="clearfix"><span>box 1: <code>20px 50px</code>.</span> <span>box 2: <code>50px 20px</code>.</span><span> box 3: <code>40px -20px;</code>.</span><span> box 4: <code>-40px 150px</code>.</span></p>
+</section>
+
+</body>
+</html>

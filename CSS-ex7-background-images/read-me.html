@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>CSS Exercise 7: CSS Background Images</title>
+	<link type="text/css" rel="stylesheet" href="http://www.criminalanimal.org/student/styles/syllabus.css">
+	<style>
+		h2 {
+			font-size: 1.2em;
+		}
+
+		code {
+			color: darkred;
+			font-weight: bold;
+			font-size: 1.3em;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header id="banner">
+			<h1>Web Design<br>
+				CSS Exercise 7</h1>
+		</header>
+
+		<main>
+			<article>
+				<h2>Background Image Exercises</h2>
+
+				<h3>Focus on:</h3>
+				<ul>
+					<li>using <code>background-image</code> property</li>
+					<li>using
+						<code>background-repeat, background-attachment, background-size, background-position</code>
+						properties
+					</li>
+					<li>refining design with sampled colors, borders, padding</li>
+					<li>use validators to check and correct work:
+						<ul>
+							<li><a href="https://validator.w3.org/" target="_blank">HTML validator</a></li>
+							<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<h3>Overview</h3>
+				<p>This exercise contains four pages that you need to style:</p>
+				<ol>
+					<li>Big Background</li>
+					<li>Tiled Background</li>
+					<li>Banner Background</li>
+					<li>Hero Image</li>
+				</ol>
+
+				<p>There are screenshots that you need to emulate as closely as possible. You will need to add the
+					styles to put a background image in the page as needed, and to finish up the design so it
+					matches the screenshot. Each page will need you to use some box properties (mostly padding and
+					border, depending on the page) to achieve the look.</p>
+
+				<p>The background position example is to help you see how it is that <code>background-position</code>
+					works. You only need to use keywords to center the background images at the top of the viewport in
+					pages 1 and 2. You don't need to do any work in the background position example. It is to help you
+					learn.</p>
+
+				<h3>Workflow</h3>
+				<h4>1: Big Background</h4>
+				<p>Use the big viburnum image in the background of the body. This is how you get an image to fill the
+					viewport. It has fairly large pixel dimensions so it should be larger than the largest viewport.
+					However, take note: it is under .5 meg in file size. Don't let your background images have large
+					file sizes. It's inconsiderate.</p>
+
+				<p>This uses background position to get the image displaying at the top and center of the display box
+					(the body). View the background position example in this exercise to help you understand how this
+					works.</p>
+
+				<p>The wrapper has a border, some padding, and a background color using <code>rgba()</code> syntax so
+					that it is translucent. Otherwise it would be next to impossible to read the text on top of the
+					image.</p>
+
+				<p>Experiment with background-attachment so you can see what it actually does in the browser; it is a
+					bit difficult to describe it, but you'll be able to see it in action.</p>
+
+				<h4>2: Tiled Background</h4>
+				<p>This uses a tiled image in the background of the body (the browser will tile automatically). The
+					background and border colors are sampled from the image. If you use background position to bring the
+					first instance of the image in at center top, then it "moves" with the wrapper when you change the
+					viewport width. Try it to see what I mean!</p>
+
+				<h4>3: Header Background</h4>
+				<p>This exercise puts the background image in the header. You'll need to set the height of the header so
+					the entire image shows. Border and background colors are sampled from the image itself in Photoshop.
+				</p>
+
+				<p>This design uses <code>text-align</code> to center the site id. You'll need to edit the h1 style to
+					align the text and to get a translucent background color in the h1! And some padding! and maybe even
+					zero out margins!</p>
+
+				<h4>4: Hero Image</h4>
+				<p>This page has a hero image that goes in the background of the main. The image is wide and narrow so that it
+					extends beyond the live space on very wide viewports. This is important to understand when working
+					with hero images.</p>
+				</p>
+
+				<p>This design uses multiple wrappers (already in the markup and styled) so that the live space is
+					limited, but backgrounds are not. This is different from the Banner Background, which puts the
+					background image inside a fixed-width banner.</p>
+
+				<p>You'll notice that the hero image is wide and narrow so that it will extend beyond the live space in
+					a very wide viewport. It's important that you understand such hero images must be formatted in this
+					way.</p>
+
+				<h3>Validation</h3>
+				<p>You want to be sure you've written valid markup and valid styles. Use the online validator tools to
+					check your work. If there are errors, <strong>read what the validator says about them</strong> and
+					check the lines in your markup where the errors occur.
+
+
+			</article>
+		</main>
+	</div>
+</body>
+
+</html>
