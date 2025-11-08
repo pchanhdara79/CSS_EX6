@@ -1,0 +1,30 @@
+html{
+    background-color: beige;
+    background-image: url("images/1-big-viburnum.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 0px;
+}
+
+.header{
+    border: 3px solid rgb(13, 31, 0);
+    border-top-style: none;
+    border-bottom-style: none;
+    background-color: rgba(249, 249, 246, 0.8);
+    padding: 10px;
+}
+
+.h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.list{
+    margin-bottom: 20px;
+}
+
+.h2{
+    margin-bottom: 20px;
+}
