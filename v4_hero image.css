@@ -1,0 +1,16 @@
+.banner{
+    background-image: url("images/4-uwm-hero.jpg");
+    padding-bottom: 420px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.h2{
+    padding-top: 20px;
+}
+
+.credits{
+    background-color: rgb(254, 214, 17);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
